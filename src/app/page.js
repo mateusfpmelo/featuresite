@@ -24,6 +24,9 @@ export default function Home() {
       <InfoNumber />
       <br/>
       <Info3 />
+      <br/>
+      <br/>
+      <br/>
     </main>
   )
 }

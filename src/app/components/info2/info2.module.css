@@ -50,15 +50,16 @@
 
 @media(max-width:1000px){
 
+    
+    .content1{
+        padding: 2rem;
+        max-width: 90%;
+    }
+    
     .contentlist{
         width: 60%;
         padding: 3rem;
         flex-direction: column;
-    }
-    
-    
-    .content1{
-        padding: 2rem;
     }
     
     .textcontent{

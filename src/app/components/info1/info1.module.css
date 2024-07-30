@@ -51,6 +51,7 @@
         flex-direction: column-reverse;
         gap:4rem;
         padding: 2rem;
+        max-width: 90%;
     }
     .ctt1{
         align-items: center;
