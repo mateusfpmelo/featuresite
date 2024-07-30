@@ -5,6 +5,7 @@ import HeaderModule from "./components/header"
 import Client from "./components/client"
 import Info1 from "./components/info1"
 import Info2 from "./components/info2"
+import InfoNumber from "./components/infonumber"
 
 
 export default function Home() {
@@ -13,14 +14,13 @@ export default function Home() {
       <Navbar />
       <HeaderModule/>
       <br/>
-      <br/>
       <Client />
       <br/>
       <Info2 />
       <br/>
-      <br/>
       <Info1 />
       <br/>
+      <InfoNumber />
       <br/>
     </main>
   )
