@@ -4,6 +4,7 @@ import Navbar from "./components/navbar"
 import HeaderModule from "./components/header"
 import Client from "./components/client"
 import Info1 from "./components/info1"
+import Info2 from "./components/info2"
 
 
 export default function Home() {
@@ -15,6 +16,10 @@ export default function Home() {
       <br/>
       <br/>
       <Client />
+      <br/>
+      <br/>
+      <br/>
+      <Info2 />
       <br/>
       <br/>
       <br/>
