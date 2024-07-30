@@ -14,17 +14,12 @@ export default function Home() {
       <HeaderModule/>
       <br/>
       <br/>
-      <br/>
       <Client />
-      <br/>
-      <br/>
       <br/>
       <Info2 />
       <br/>
       <br/>
-      <br/>
       <Info1 />
-      <br/>
       <br/>
       <br/>
     </main>
