@@ -23,7 +23,7 @@ const Navbar = ({ scrollToRef, lorem, ipsum, dolor, sit }) => {
         <div className={styles.cstnvbitem}>
           <div className={styles.cstimgbtfmb}>
             <Image src={'/img/marca/logo.png'} alt='Logo' height={70}  width={70}/>
-            {isOpen ? <Image src={'/img/icons/menu/menuclose.png'} alt={'Ícone x para fechar'} className={styles.imgocmnclose} onClick={toggle} height={30}  width={30}/> : <Image src={'/img/icons/menu/menuopen.png'} alt={'Ícone para abrir'} className={styles.imgocmnopen} onClick={toggle} height={30}  width={30}/>}
+            {isOpen ? <Image src={'/img/icons/menu/menuopen.png'} alt={'Ícone x para fechar'} className={styles.imgocmnclose} onClick={toggle} height={30}  width={30}/> : <Image src={'/img/icons/menu/menuclose.png'} alt={'Ícone para abrir'} className={styles.imgocmnopen} onClick={toggle} height={30}  width={30}/>}
           </div>
           
           <div className={styles.mtrcstnv}>
