@@ -22,7 +22,7 @@ const FooterModule = () => {
                             <div key={index} className={styles.footermap}>{item.text}</div>
                         ))}
                     </div>
-                    <p className="p14">©️ 2024 Est magnam. Todos os direitos reservados</p>
+                    <p className="p14">©️ 2024 Est magnam. Non autem nisi aut quis neque id aut enim mollitia</p>
                     <br/>
                 </div>
             </div>
