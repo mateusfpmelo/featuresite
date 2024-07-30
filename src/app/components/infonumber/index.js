@@ -10,7 +10,6 @@ const InfoNumber = () => {
                 <div className={styles.numbercontent}>
                     <div className={styles.contenttext}>
                         <h2>Est vel omnis nostrum quia voluptate</h2>
-                        <button className="bt1">Lorem Ipsum</button>
                     </div>
                     <div className={styles.cttnumber}>
                         <div>

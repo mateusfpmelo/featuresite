@@ -3,17 +3,22 @@
     display: flex;
     flex-direction: row;
     gap:2rem;
-    padding: 2rem 4rem;
+    padding: 2rem;
     align-items: center;
+    justify-content: space-around;
 }
 
 .ctt1{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    max-width: 500px;
+    max-width: 450px;
     gap:2rem;
     color: white;
+}
+
+.ctt1 h2{
+    color:#DF5959;
 }
 
 .imgcontent {
@@ -23,6 +28,7 @@
     background-image: url('/img/imgbanner1.png');
     background-size: cover;
     background-position: left center;
+    border-radius: 30px 20px 30px 0;
 }
 
 .imgcontent::after {

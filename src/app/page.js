@@ -6,6 +6,7 @@ import Client from "./components/client"
 import Info1 from "./components/info1"
 import Info2 from "./components/info2"
 import InfoNumber from "./components/infonumber"
+import Info3 from "./components/info3"
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <br/>
       <InfoNumber />
       <br/>
+      <Info3 />
     </main>
   )
 }

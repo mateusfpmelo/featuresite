@@ -20,6 +20,10 @@
     color: white;
 }
 
+.textcontent h2 {
+    color: #5B8DF9;
+}
+
 .contentlist{
     width: 100%;
     padding: 3rem;
