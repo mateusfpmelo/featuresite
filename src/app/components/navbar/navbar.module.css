@@ -149,19 +149,21 @@
   .imgocmnclose{
       display: flex;
       align-items: center;
+      animation: fadeInUpLitle 0.5s ease-out; /* Define a duração e o tipo de easing */
   }
 
   .imgocmnopen{
       display: flex;
       align-items: center;
       transition: opacity 0.8s ease-in-out; /* Transição de opacidade */
+      animation: fadeInUpLitle 0.5s ease-out; /* Define a duração e o tipo de easing */
   }
 
   .cstnvbitem{
       flex-direction: column;
       gap:1rem;
       align-items: flex-start;
-      transition: opacity 0.8s ease-in-out; /* Transição de opacidade */
+      transition: fadeInUp 0.8s ease-in-out; /* Transição de opacidade */
   }
 
   .nvbfrm{
@@ -177,11 +179,22 @@
 }
 
 
-
 @keyframes fadeInUp {
   from {
       opacity: 0;
       transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+
+@keyframes fadeInUpLitle {
+  from {
+      opacity: 0;
+      transform: translateY(10px);
   }
   to {
       opacity: 1;
