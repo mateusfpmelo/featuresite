@@ -17,3 +17,9 @@
     justify-content: space-around;
     gap:1.5rem;
 }
+
+@media(max-width: 1000px){
+    .clients{
+        padding: 2rem;
+    }
+}

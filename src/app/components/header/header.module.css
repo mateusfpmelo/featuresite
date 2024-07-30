@@ -8,7 +8,6 @@
     background-image: url('/img/bgheader2.png');
     background-size: cover; /* Para cobrir toda a área */
     background-position: left center; /* Para centralizar a imagem */
-    padding:4rem 0;
     margin-top: 100px;
     z-index: 1;
     min-height: 400px;
@@ -24,5 +23,6 @@
         background-position:center; /* Para centralizar a imagem */
         min-height: 600px;
         border-radius: 0 0 40px 20px;
+        padding: 2rem;
     }
 }

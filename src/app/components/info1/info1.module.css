@@ -18,8 +18,8 @@
 
 .imgcontent {
     position: relative; /* Certifique-se de que a posição do contêiner é relativa */
-    width: 403px;
-    height: 347px;
+    width: 390px;
+    height: 330px;
     background-image: url('/img/imgbanner1.png');
     background-size: cover;
     background-position: left center;
@@ -30,8 +30,8 @@
     position: absolute; /* Usar absolute para posicionar em relação ao pai */
     top: 0; /* Alinha o topo */
     left: 0; /* Alinha à esquerda */
-    width: 367px; /* Largura igual ao pai */
-    height: 367px; /* Altura igual ao pai */
+    width: 337px; /* Largura igual ao pai */
+    height: 337px; /* Altura igual ao pai */
     background-image: url('/img/retbanner1.png');
     background-size: cover;
     background-position: left center;
@@ -40,20 +40,32 @@
 }
 
 
-@media(max-width: 600px){
-    .imgcontent{
-        width: 360px;
-        height: 315px;
-    }
-}
-
-
 @media(max-width: 1000px){
     .info1content{
         flex-direction: column-reverse;
         gap:4rem;
+        padding: 2rem;
     }
     .ctt1{
         align-items: center;
+    }
+    .imgcontent {
+        position: relative; /* Certifique-se de que a posição do contêiner é relativa */
+        width: 360px;
+        height: 310px;
+        background-image: url('/img/imgbanner1.png');
+        background-size: cover;
+        background-position: left center;
+    }
+    
+        
+    .imgcontent::after {
+        content: ""; /* Adiciona conteúdo vazio para que o pseudo-elemento seja exibido */
+        position: absolute; /* Usar absolute para posicionar em relação ao pai */
+        top: 0; /* Alinha o topo */
+        left: 0; /* Alinha à esquerda */
+        width: 330px; /* Largura igual ao pai */
+        height: 330px; /* Altura igual ao pai */
+        transform: translateX(12%) translateY(-10%);
     }
 }
