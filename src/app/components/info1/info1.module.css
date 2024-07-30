@@ -1,0 +1,59 @@
+.info1content{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    padding: 2rem 4rem;
+    align-items: center;
+}
+
+.ctt1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 500px;
+    gap:2rem;
+    color: white;
+}
+
+.imgcontent {
+    position: relative; /* Certifique-se de que a posição do contêiner é relativa */
+    width: 403px;
+    height: 347px;
+    background-image: url('/img/imgbanner1.png');
+    background-size: cover;
+    background-position: left center;
+}
+
+.imgcontent::after {
+    content: ""; /* Adiciona conteúdo vazio para que o pseudo-elemento seja exibido */
+    position: absolute; /* Usar absolute para posicionar em relação ao pai */
+    top: 0; /* Alinha o topo */
+    left: 0; /* Alinha à esquerda */
+    width: 367px; /* Largura igual ao pai */
+    height: 367px; /* Altura igual ao pai */
+    background-image: url('/img/retbanner1.png');
+    background-size: cover;
+    background-position: left center;
+    z-index: 1; /* Garante que o pseudo-elemento esteja acima do conteúdo da classe .imgcontent */
+    transform: translateX(-5%) translateY(-8%);
+}
+
+
+@media(max-width: 600px){
+    .imgcontent{
+        width: 360px;
+        height: 315px;
+    }
+}
+
+
+@media(max-width: 1000px){
+    .info1content{
+        flex-direction: column-reverse;
+        gap:4rem;
+    }
+    .ctt1{
+        align-items: center;
+    }
+}

@@ -3,6 +3,7 @@ import styles from "./page.module.css"
 import Navbar from "./components/navbar"
 import HeaderModule from "./components/header"
 import Client from "./components/client"
+import Info1 from "./components/info1"
 
 
 export default function Home() {
@@ -14,6 +15,13 @@ export default function Home() {
       <br/>
       <br/>
       <Client />
+      <br/>
+      <br/>
+      <br/>
+      <Info1 />
+      <br/>
+      <br/>
+      <br/>
     </main>
   )
 }
