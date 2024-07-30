@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -19,7 +19,7 @@ time, mark, audio, video {
 }
 
 * {
-  font-family: 'Poppins', sans-serif !important;
+  font-family: 'Inter', sans-serif !important;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -41,7 +41,7 @@ body {
 }
 
 body.font-loaded {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 .bt1{
@@ -93,7 +93,7 @@ h4{
 
 .p18{
   font-size: 18px;
-  font-weight:400;
+  font-weight:300;
 }
 
 
