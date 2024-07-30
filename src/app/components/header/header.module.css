@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    gap: 2rem;
+    background-image: url('/img/bgheader2.png');
+    background-size: cover; /* Para cobrir toda a área */
+    background-position: left center; /* Para centralizar a imagem */
+    padding:4rem 0;
+    margin-top: 100px;
+    z-index: 1;
+    min-height: 400px;
+    width: 1000px;
+    color: white;
+    padding: 2rem 4rem;
+    border-radius: 0 0 40px 20px;
+}
+
+@media(max-width: 1000px){
+    .header{
+        width: 90%;
+        background-position:center; /* Para centralizar a imagem */
+        min-height: 600px;
+    }
+}

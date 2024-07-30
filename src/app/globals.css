@@ -60,3 +60,78 @@ body.font-loaded {
 .bt1:hover{
   filter: brightness(120%);
 }
+
+.firstcontent{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  font-size: 48px;
+  font-weight: 600;
+}
+
+
+h2{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+
+h3{
+  font-size: 32px;
+  font-weight: 600;
+}
+
+
+h4{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.p18{
+  font-size: 18px;
+  font-weight:400;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1000px){
+  h1{
+    font-size: 36px;
+  }
+  
+  
+  h2{
+    font-size: 32px;
+  }
+  
+  
+  h3{
+    font-size: 24px;
+  }
+  
+  
+  h4{
+    font-size: 20px;
+  }
+
+  .p18{
+    font-size: 16px;
+  }
+    
+  .bt1{
+    font-size: 12px;
+  }
+
+
+}
