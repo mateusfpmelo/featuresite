@@ -36,13 +36,13 @@
     position: absolute; /* Usar absolute para posicionar em relação ao pai */
     top: 0; /* Alinha o topo */
     left: 0; /* Alinha à esquerda */
-    width: 337px; /* Largura igual ao pai */
-    height: 337px; /* Altura igual ao pai */
-    background-image: url('/img/retbanner1.png');
+    width: 380px; /* Largura igual ao pai */
+    height: 330px; /* Altura igual ao pai */
+    background-image: url('/img/retbanner2.png');
     background-size: cover;
     background-position: left center;
     z-index: 1; /* Garante que o pseudo-elemento esteja acima do conteúdo da classe .imgcontent */
-    transform: translateX(-5%) translateY(-8%);
+    transform: translateX(-5%) translateY(-9%);
 }
 
 

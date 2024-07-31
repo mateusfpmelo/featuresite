@@ -49,11 +49,11 @@
     left: 0; /* Alinha à esquerda */
     width: 272px; /* Largura igual ao pai */
     height: 409px; /* Altura igual ao pai */
-    background-image: url('/img/retcomment.png');
+    background-image: url('/img/retcomment1.png');
     background-size: cover;
     background-position: left center;
     z-index: 1; /* Garante que o pseudo-elemento esteja acima do conteúdo da classe .imgcontent */
-    transform: translateX(-5%) translateY(-8%);
+    transform: translateX(-5%) translateY(-5%);
 }
 
 
