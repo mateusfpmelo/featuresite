@@ -13,7 +13,7 @@ const FooterModule = () => {
     
     return(
         <>
-            <div className="firstcontent bgblack">
+            <div className="firstcontent bgblue">
                 <div className={styles.footer}>
                     <br/>
                     <div className={styles.contentfooter}>
