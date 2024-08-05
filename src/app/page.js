@@ -17,21 +17,13 @@ export default function Home() {
     <main className={styles.main}>
       <Navbar />
       <HeaderModule/>
-      <br/>
       <Client />
-      <br/>
       <Info2 />
-      <br/>
       <Info1 />
-      <br/>
       <InfoNumber />
-      <br/>
       <Info3 />
-      <br/>
       <Info4 />
-      <br/>
       <Comment />
-      <br/>
       <FooterModule />
     </main>
   )

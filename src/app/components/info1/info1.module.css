@@ -71,8 +71,8 @@
         position: absolute; /* Usar absolute para posicionar em relação ao pai */
         top: 0; /* Alinha o topo */
         left: 0; /* Alinha à esquerda */
-        width: 330px; /* Largura igual ao pai */
-        height: 330px; /* Altura igual ao pai */
-        transform: translateX(12%) translateY(-10%);
+        width: 360px; /* Largura igual ao pai */
+        height: 310px; /* Altura igual ao pai */
+        transform: translateX(3%) translateY(-3%);
     }
 }

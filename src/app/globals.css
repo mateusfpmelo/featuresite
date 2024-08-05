@@ -92,6 +92,10 @@ body.font-loaded {
   background-color: #01121c;
 }
 
+.bgforheader{
+  background: linear-gradient(to right, #2a1222 50%, #01121c 50%);
+}
+
 h1{
   font-size: 48px;
   font-weight: 600;
